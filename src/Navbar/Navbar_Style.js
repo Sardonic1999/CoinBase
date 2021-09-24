@@ -38,6 +38,8 @@ export const Pages = styled.div`
     line-height: 21px;
     color: #333333;
     cursor: pointer;
+    border-bottom: 3px solid transparent;
+
     :hover {
       border-bottom: 3px solid #fd749b;
     }

@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   height: fit-content;
   box-sizing: border-box;
   background: white;
-  padding: 50px 150px;
+  padding: 0px 150px;
 `;
 
 export const Left = styled.div`
@@ -33,7 +33,8 @@ export const Text = styled.div`
   font-size: 35px;
   line-height: 65px;
   color: rgba(253, 116, 155, 1);
-
+  border-bottom: 3px solid transparent;
+  text-decoration: none;
   :hover {
     border-bottom: 3px solid #fd749b;
   }
