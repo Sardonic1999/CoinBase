@@ -4,10 +4,10 @@ import bg from "../assets/imgs/bg.png";
 export const Wrapper = styled.div`
   display: flex;
   width: 1920px;
-  height: 1080px;
+  height: 1040px;
   background-image: url(${bg});
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   box-sizing: border-box;
 `;
 
