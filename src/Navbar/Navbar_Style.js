@@ -30,7 +30,7 @@ export const Pages = styled.div`
   li {
     font-family: Poppins;
     background: transparent;
-
+    list-style-type: none;
     margin-right: 70px;
     font-style: normal;
     font-weight: bold;
