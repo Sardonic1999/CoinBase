@@ -6,6 +6,7 @@ import About from "./About/About";
 import Rate from "./Rate/Rate";
 import Experiance from "./Experiance/Experiance";
 import Trade from "./Trade/Trade";
+import Satisfy from "./Satisfy/Satisfy";
 
 const Root = () => {
   return (
@@ -16,6 +17,7 @@ const Root = () => {
       <Rate />
       <Experiance />
       <Trade />
+      <Satisfy />
     </Container>
   );
 };

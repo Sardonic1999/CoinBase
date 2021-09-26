@@ -58,6 +58,7 @@ export const CardBtc = styled.div`
   background: #ffffff;
   border-radius: 15px;
   margin-right: 70px;
+  cursor: pointer;
   border: 1px solid rgba(253, 116, 155, 1);
   img {
     width: 50px;
@@ -83,6 +84,8 @@ export const CardGift = styled.div`
   height: 226px;
   background: #ffffff;
   border-radius: 15px;
+  cursor: pointer;
+
   border: 1px solid rgba(253, 116, 155, 1);
 
   p {
