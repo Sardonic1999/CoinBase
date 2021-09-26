@@ -5,6 +5,7 @@ import Body1 from "./Body1/Body1";
 import About from "./About/About";
 import Rate from "./Rate/Rate";
 import Experiance from "./Experiance/Experiance";
+import Trade from "./Trade/Trade";
 
 const Root = () => {
   return (
@@ -14,6 +15,7 @@ const Root = () => {
       <About />
       <Rate />
       <Experiance />
+      <Trade />
     </Container>
   );
 };

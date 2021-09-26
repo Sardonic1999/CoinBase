@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
   height: fit-content;
   background: white;
   box-sizing: border-box;
+  padding-bottom: 100px;
 `;
 
 export const Left = styled.div`
@@ -53,6 +54,6 @@ export const Right = styled.div`
 `;
 
 export const Img = styled.img`
-  width: 614px;
-  height: 513px;
+  width: 674px;
+  height: 573px;
 `;
