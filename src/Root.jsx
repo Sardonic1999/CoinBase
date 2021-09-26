@@ -9,6 +9,7 @@ import Trade from "./Trade/Trade";
 import Satisfy from "./Satisfy/Satisfy";
 import Download from "./Download/Download";
 import Mobile from "./Mobile/Mobile";
+import Footer from "./Footer/Footer";
 
 const Root = () => {
   return (
@@ -22,6 +23,7 @@ const Root = () => {
       <Satisfy />
       <Download />
       <Mobile />
+      <Footer />
     </Container>
   );
 };
