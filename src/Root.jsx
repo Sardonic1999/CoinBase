@@ -8,6 +8,7 @@ import Experiance from "./Experiance/Experiance";
 import Trade from "./Trade/Trade";
 import Satisfy from "./Satisfy/Satisfy";
 import Download from "./Download/Download";
+import Mobile from "./Mobile/Mobile";
 
 const Root = () => {
   return (
@@ -20,6 +21,7 @@ const Root = () => {
       <Trade />
       <Satisfy />
       <Download />
+      <Mobile />
     </Container>
   );
 };
