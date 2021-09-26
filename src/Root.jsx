@@ -7,6 +7,7 @@ import Rate from "./Rate/Rate";
 import Experiance from "./Experiance/Experiance";
 import Trade from "./Trade/Trade";
 import Satisfy from "./Satisfy/Satisfy";
+import Download from "./Download/Download";
 
 const Root = () => {
   return (
@@ -18,6 +19,7 @@ const Root = () => {
       <Experiance />
       <Trade />
       <Satisfy />
+      <Download />
     </Container>
   );
 };
